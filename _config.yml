@@ -126,10 +126,6 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: substack.com
     rss_url: https://zejiac99.substack.com/feed
-  - name: Substack
-    posts:
-      - url: https://zejiac99.substack.com/p/some-thoughts-on-deep-seek
-        published_date: 2025-03-23
 
 # -----------------------------------------------------------------------------
 # Newsletter
