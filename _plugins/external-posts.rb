@@ -25,10 +25,30 @@ module ExternalPosts
     def fetch_from_rss(site, src)
       xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
+
+      # Add the workaround here
+      if xml.include?('<!DOCTYPE html>')
+        local_rss_file = './substack.rss' # Adjust path if needed
+        if File.exist?(local_rss_file)
+          xml = File.read(local_rss_file)
+        else
+          puts "Warning: Detected HTML instead of RSS for #{src['rss_url']}, but local file '#{local_rss_file}' not found."
+          return # Skip processing this source if the local file is missing
+        end
+      end
+
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
+    rescue Feedjira::NoParserAvailable => e
+      puts "Error parsing RSS feed for #{src['name']} (#{src['rss_url']}): #{e.message}"
+      puts "Consider generating a local 'substack.rss' file using 'curl https://your.substack.com/feed > substack.rss' in your workflow."
+    rescue HTTParty::Error => e
+      puts "Error fetching RSS feed for #{src['name']} (#{src['rss_url']}): #{e.message}"
+    rescue StandardError => e
+      puts "An unexpected error occurred while fetching/parsing RSS for #{src['name']} (#{src['rss_url']}): #{e.message}"
     end
 
+    
     def process_entries(site, src, entries)
       entries.each do |e|
         puts "...fetching #{e.url}"
