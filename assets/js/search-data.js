@@ -16,15 +16,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-just-a-moment",
+        },{id: "post-early-career-resources",
         
-          title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Early Career Resources <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "Links to resources that I&#39;ve found helpful during my time exploring startups and research [Last updated 09/01/24].",
         section: "Posts",
         handler: () => {
           
-            window.open("https://zejiac99.substack.com/p/some-thoughts-on-deep-seek", "_blank");
+            window.open("https://harmonbhasin.substack.com/p/early-career-resources", "_blank");
+          
+        },
+      },{id: "post-silence-my-new-favorite-playlist",
+        
+          title: 'Silence: My New Favorite Playlist <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Cultivating valuable ideas through deliberate reflection",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://harmonbhasin.substack.com/p/silence-my-new-favorite-playlist", "_blank");
           
         },
       },{id: "post-lt-i-gt-high-and-low-lt-i-gt",
