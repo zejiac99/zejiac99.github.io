@@ -91,6 +91,7 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           curl -s https://zejiac99.substack.com/feed -o substack.rss
+          cat substack.rss
           bundle install --jobs 4 --retry 3
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
