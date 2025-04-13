@@ -1,6 +1,6 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: film review
 permalink: /books/
 nav: false
 collection: books

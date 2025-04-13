@@ -401,23 +401,23 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem; // This controls the size of Font Awesome icons
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 3rem; // Changed from 3.2rem to match font-size
+        height: 3rem; // Changed from 3.2rem to match
+        margin-bottom: 0.5rem; // Changed to match the SVG margin
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
+        width: 3rem; // Already correct
+        height: 3rem; // Changed from 3.5rem to maintain square aspect ratio
+        margin-bottom: 0.2rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.5rem; // Changed from 3.rem (typo) to 3rem
+          height: 2.5rem; // Changed from 3.5rem to match
         }
       }
 
@@ -640,6 +640,36 @@ footer.sticky-bottom {
       &:hover {
         background-color: var(--global-theme-color);
       }
+    }
+  }
+}
+
+// Blog post content specific styling
+.post {
+  .post-content {
+    p, li, ul, ol {
+      font-size: 1.11rem; // Increase from default (typically 1rem)
+      line-height: 1.5; // Adjust line height for better readability with larger font
+    }
+    
+    h1 {
+      font-size: 2.25rem; // Adjust heading sizes proportionally if desired
+    }
+    
+    h2 {
+      font-size: 1.75rem;
+    }
+    
+    h3 {
+      font-size: 1.5rem;
+    }
+    
+    h4, h5, h6 {
+      font-size: 1.25rem;
+    }
+    
+    blockquote {
+      font-size: 1.3rem; // Slightly larger than regular text
     }
   }
 }
