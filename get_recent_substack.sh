@@ -1,1 +1,1 @@
-curl https://harmonbhasin.substack.com/feed > ./substack.rss
+curl https://zejiac99.substack.com/feed > ./substack.rss
