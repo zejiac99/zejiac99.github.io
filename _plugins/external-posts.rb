@@ -41,14 +41,14 @@ module ExternalPosts
       process_entries(site, src, feed.entries)
     rescue Feedjira::NoParserAvailable => e
       puts "Error parsing RSS feed for #{src['name']} (#{src['rss_url']}): #{e.message}"
-      puts "Consider generating a local 'substack.rss' file using 'curl https://your.substack.com/feed > substack.rss' in your workflow."
+      puts "Consider generating a local 'substack.rss' file using 'curl https://zejiac99.substack.com/feed > substack.rss' in your workflow."
     rescue HTTParty::Error => e
       puts "Error fetching RSS feed for #{src['name']} (#{src['rss_url']}): #{e.message}"
     rescue StandardError => e
       puts "An unexpected error occurred while fetching/parsing RSS for #{src['name']} (#{src['rss_url']}): #{e.message}"
     end
 
-    
+
     def process_entries(site, src, entries)
       entries.each do |e|
         puts "...fetching #{e.url}"
