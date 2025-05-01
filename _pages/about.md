@@ -27,13 +27,15 @@ latest_posts:
 
 ### About
 
-Welcome! I'm a strategy consultant, healthcare specialist, and data & computer science enthusiast with expertise in enterprise strategic planning, US healthcare payor & provider operations, and data analytics.
+Welcome! I'm a strategy consultant and data science enthusiast with expertise in enterprise strategic planning, U.S. healthcare payor operation, consumer-focused retail growth, and analytics.
 
 I earned my Bachelor of Science in Quantitative Sciences from **Emory University**, where I double majored in Film & Media Studies. Currently, I'm a Corporate Strategy Consultant at **Humana**, where my role involves shaping organizational strategies through market research, growth opportunity analysis, and developing strategic insights to guide executive decision-making.
 
 Some of my key accomplishments include:
 
 1. Proposing innovative data solutions to enhance the accuracy and timeliness of claims forecasting processes
+
+2. Leading the formation of a consumer-oriented partnership concept with a renowned financial institution
 
 2. Reimagining the internal physician executive recruitment program to strengthen company-wide talent strategy
 
@@ -51,10 +53,8 @@ Outside the corporate world, I'm passionate about fashion and co-founded **Divin
 
 In my free time, I enjoy staying active with tennis, boxing, hiking, and snowboarding. I'm also an avid traveler, reader, and film photographer.
 
-As a dedicated cinéphile, I spend considerable time watching, analyzing, and writing about films and TV series, especially from the Classic Hollywood era, various New Wave movements, and Italian Neorealism. You can explore my insights and analyses on my [blog](blog/category/film/).
+As a dedicated cinéphile, I spend considerable time watching, analyzing, and writing about films and TV series, especially from the Classic Hollywood era, the French New Wave, and Italian Neorealism. You can explore my insights and analyses on my [blog](blog/category/film/).
 
-I'm also intrigued by the ways technology continues to shape the world. You can follow my ongoing reflections and notes on these topics as my learning journey evolves.
-
-Outside of work, I enjoy sports (tennis, boxing, hiking, snowboarding), traveling, reading, thrifting, and film photography.
+I'm also intrigued by the ways new technology and AI continues to shape the world. You can follow my ongoing reflections and notes on these topics as my learning journey evolves.
 
 <br>
